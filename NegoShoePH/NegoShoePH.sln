@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegoshoePH.Web", "NegoshoePH.Web\NegoshoePH.Web.csproj", "{3B41026C-6483-43EA-A984-2325EE27AE5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegoShoePH.Common", "NegoShoePH.Common\NegoShoePH.Common.csproj", "{FF4B53B9-79A6-40CB-AE59-8A1E3154E8E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegoShoePH.Data", "NegoShoePH.Data\NegoShoePH.Data.csproj", "{96FE96C0-34FB-4263-A81B-7A83B21BF8ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegoShoePH.Entity", "NegoShoePH.Entity\NegoShoePH.Entity.csproj", "{22D3E56F-603B-425B-990B-0DB508C613EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegoshoePH.ImageResizer", "NegoShoePH.ImageResizer\NegoshoePH.ImageResizer.csproj", "{435E08CA-CE1C-4400-838E-9F2E31008016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegoshoePH.Importer", "NegoShoePH.Importer\NegoshoePH.Importer.csproj", "{4DEC2961-6EE6-4947-994A-6B28F48D690C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B41026C-6483-43EA-A984-2325EE27AE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B41026C-6483-43EA-A984-2325EE27AE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B41026C-6483-43EA-A984-2325EE27AE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B41026C-6483-43EA-A984-2325EE27AE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4B53B9-79A6-40CB-AE59-8A1E3154E8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4B53B9-79A6-40CB-AE59-8A1E3154E8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4B53B9-79A6-40CB-AE59-8A1E3154E8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4B53B9-79A6-40CB-AE59-8A1E3154E8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96FE96C0-34FB-4263-A81B-7A83B21BF8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FE96C0-34FB-4263-A81B-7A83B21BF8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FE96C0-34FB-4263-A81B-7A83B21BF8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FE96C0-34FB-4263-A81B-7A83B21BF8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D3E56F-603B-425B-990B-0DB508C613EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D3E56F-603B-425B-990B-0DB508C613EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D3E56F-603B-425B-990B-0DB508C613EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D3E56F-603B-425B-990B-0DB508C613EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435E08CA-CE1C-4400-838E-9F2E31008016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435E08CA-CE1C-4400-838E-9F2E31008016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435E08CA-CE1C-4400-838E-9F2E31008016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435E08CA-CE1C-4400-838E-9F2E31008016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEC2961-6EE6-4947-994A-6B28F48D690C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEC2961-6EE6-4947-994A-6B28F48D690C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEC2961-6EE6-4947-994A-6B28F48D690C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEC2961-6EE6-4947-994A-6B28F48D690C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
