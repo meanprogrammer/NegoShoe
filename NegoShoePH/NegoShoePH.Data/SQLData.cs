@@ -14,9 +14,9 @@ namespace NegoShoePH.Data
             context = new InventoryDataDataContext();
         }
 
-        public void Execute(string query)
+        public int Execute(string query)
         {
-            context.ExecuteCommand(query);
+            return context.ExecuteCommand(query);
         }
     }
 }

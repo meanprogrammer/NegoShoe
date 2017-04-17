@@ -23,7 +23,8 @@ namespace NegoshoePH.Web.Controllers
 
         public ActionResult Execute(string query)
         {
-            sqlData.Execute(query);
+            var ar = sqlData.Execute(query);
+            ViewBag.AffectedRows = ar;
             return View();
         }
     }
