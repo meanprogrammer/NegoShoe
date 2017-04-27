@@ -21,6 +21,11 @@ namespace NegoshoePH.Web.Controllers
             return View();
         }
 
+        public ActionResult Reset()
+        {
+            return View();
+        }
+
         public ActionResult Execute(string query)
         {
             var ar = sqlData.Execute(query);

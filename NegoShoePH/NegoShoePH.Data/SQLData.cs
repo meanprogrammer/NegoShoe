@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace NegoShoePH.Data
 {
@@ -17,6 +18,24 @@ namespace NegoShoePH.Data
         public int Execute(string query)
         {
             return context.ExecuteCommand(query);
+        }
+
+        public void ResetDatabase()
+        {
+            using (TransactionScope scope = new TransactionScope())
+            {
+                try
+                {
+                  
+                    scope.Complete();
+                }
+                catch (Exception ex)
+                {
+                    
+                    //throw;
+                    Transaction.Current.Rollback(ex);
+                }
+            }
         }
     }
 }
