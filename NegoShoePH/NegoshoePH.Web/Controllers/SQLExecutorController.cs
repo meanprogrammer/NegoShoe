@@ -23,6 +23,7 @@ namespace NegoshoePH.Web.Controllers
 
         public ActionResult Reset()
         {
+            sqlData.ResetDatabase();
             return View();
         }
 
